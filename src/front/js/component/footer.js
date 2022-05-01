@@ -4,7 +4,7 @@ import maps from "../../img/maps.png";
 import wsapp from "../../img/wsapp.png";
 import youtb from "../../img/youtb.png";
 import intg from "../../img/intg.png";
-import fondofoo from "../../img/imgfdo.jpg";
+import fondofoo from "../../img/imgfooter.jpg";
 
 export const Footer = () => (
   <footer className="footer mt-auto py-3 text-center">
@@ -42,8 +42,8 @@ export const Footer = () => (
     </div>
     <div
       className="divimgfdo"
-    
     >
+      <img className="fin-footer" src={fondofoo} />
     </div>
   </footer>
 );
